@@ -40,3 +40,17 @@ This project was created for the **Level Up Vibe Coding Hackathon** (hosted by O
    ```bash
    git clone https://github.com/yourusername/medium-cee.git
    cd medium-cee
+
+2. Install dependencies
+   bash
+   npm install
+
+4. Set up environment variables
+   Create a .env file with the following variables:
+   VITE_API_URL=http://localhost:3000
+
+5. Start the development server
+   bash
+   npm run dev
+
+7. Visit http://localhost:5173 in your browser

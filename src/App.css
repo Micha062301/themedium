@@ -1,4 +1,3 @@
-/* App-specific styles can go here */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -6,31 +5,38 @@
 @import url('https://fonts.googleapis.com/css2?family=Charter:wght@400;700&display=swap');
 
 body {
-  font-family: Charter, serif;
-  background: #F7F7F7;
-  color: #121212;
   margin: 0;
 }
 
+.app {
+  font-family: Charter, serif;
+  background: #FFFFFF;
+  min-height: 100vh;
+}
+
+.font-charter {
+  font-family: Charter, serif;
+}
+
 .article-card {
-  @apply border-b py-4 max-w-2xl mx-auto;
+  @apply border-b py-3 max-w-2xl mx-auto;
 }
 .article-card img {
-  @apply w-full h-40 object-cover mb-3;
+  @apply w-full h-36 object-cover mb-2;
 }
 .article-card h2 {
-  @apply text-xl font-bold mb-1;
+  @apply text-lg font-bold mb-1;
 }
 .article-card .author {
-  @apply text-gray-600 text-sm;
+  @apply text-gray-500 text-sm;
 }
 .article-card .excerpt {
-  @apply text-gray-700;
+  @apply text-gray-600;
 }
 
 .cee-sidebar {
-  @apply fixed right-0 top-0 w-60 bg-white p-3 shadow;
+  @apply fixed right-0 top-12 w-56 bg-white p-2 shadow;
 }
 .cee-sidebar .recommendation {
-  @apply mb-2 text-gray-800 text-sm;
+  @apply mb-1 text-gray-700 text-sm;
 }

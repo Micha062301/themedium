@@ -1,4 +1,4 @@
-# Medium with Collaborative AI-Powered Content Engagement Engine (CEE)
+# Medium with Collaborative AI-Powered Content Engagement Engine
 
 This project was created for the **Level Up Vibe Coding Hackathon** (hosted by Outlier AI on Luma, May 2–4, 2025). It replicates Medium's minimalist interface and introduces an AI-powered enhancement to curate personalized content, foster community interaction, and boost engagement by 40%.
 
